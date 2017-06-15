@@ -1,0 +1,130 @@
+<!-- TODO:
+
+Legenda:
+++ > Feito
+** > A fazer
+__ > Em Progresso
+
+
+++ Estilizar a Lateral
+++ Adicionar Dark Mode (Position Fixed)
+__ Estilizar o Dark Mode
+** Arrumar Divitite(?)
+** Nome do site:
+** Fazer um Header
+** Adicionar as Matérias
+** Adicionar Div com dicas rotacionais na lateral direita
+** Matérias {
+    Em Fótons:
+    ** Fogos de Artíficio a partir do calculo do fóton
+    Em Densidade:
+    ** Adicionar dados em JS para resolver problema (Na Div com id Densidade)
+}
+-->
+<!DOCTYPE html>
+<html class="html">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <div class="materia">
+      <H1 id ="densidade"> Densidade</h1>
+        <p>
+          <p>
+              Para líquidos e sólidos, a unidade mais usada para densidade é g/cm<sup>3</sup> (ou g/mL), lembrando que 1 cm<sup>3</sup> = 1 mL. Já para gases é mais comum a unidade g/L.
+              Apesar disso, a unidade de densidade no SI (Sistema Internacional de Unidades) é o quilograma por metro cúbico (kg/m<sup>3</sup>).
+              Assim, quando dizemos, por exemplo, que a densidade do ferro é de 7,86 g/cm<sup>3</sup>, isso quer dizer que o volume de 1 cm<sup>3</sup> de ferro apresenta 7,86g.
+            </p>
+            <p>
+              <strong>Um material menos denso flutua sobre um mais denso. O contrário também ocorre, um material mais denso afunda num material menos denso.</strong>
+              Além disso, à medida que muda de estado físico, uma mesma substância possui diferentes densidades.
+              Para verificar esses pontos, veja o caso da água. À temperatura ambiente, no estado líquido, ela possui densidade igual a 1,0 g/cm<sup>3</sup>.
+              À medida que ela vai congelando, as suas moléculas realizam ligações de hidrogênio, ficando dispostas tridimensionalmente de forma organizada, numa grade cristalina com espaços vazios.
+              O resultado é que a densidade do gelo fica menor (0,92 g/cm<sup>3</sup>) que a da água e flutua quando colocado nela.
+              É interessante que o gelo não fica totalmente acima da superfície da água, mas a maior parte fica abaixo dela.
+              Isso acontece porque se compararmos a densidade do gelo (0,92 g/cm<sup>3</sup>) com a da água (1,0 g/cm<sup>3</sup>), veremos que é necessário apenas 92% do volume do gelo para igualar a massa de água que ele desloca.
+              Dessa forma, 92% do volume do gelo fica abaixo da superfície da água; e apenas 8% ficam acima da superfície.
+              Porém, se colocarmos o gelo num copo com bebida alcoólica, verificaremos que o gelo não flutua, mas afunda.
+              Isso ocorre porque, conforme já foi dito, a densidade do álcool é de 0,79 g/cm<sup>3</sup>, ou seja, é menor que a do gelo.
+              Se adicionarmos água ao álcool, a sua densidade vai aumentando gradativamente. Isso mostra que, em misturas, as densidades das substâncias mudam. Por exemplo, se adicionarmos sal na água, a sua densidade irá aumentar.
+              Isso pode ser visualizado no caso do Mar Morto, que possui alta concentração de sal dissolvido em sua água, tendo densidade de 1,35 g/cm<sup>3</sup>.
+              É por isso que qualquer pessoa flutua em suas águas; caso fosse em um rio comum, só não afundaria quem sabe nadar.
+            </p>
+            <p>
+              <div class="formulas">
+                Da fórmula da densidade, temos: <br><br>
+
+                  <strong>D = M/V</strong><br>
+                  <strong>M = D * V</strong><br>
+                  <strong>V = D * M </strong><br>
+
+
+              </div>
+              <div class="densidade-exemplo">
+                <p>
+                  Veja um exemplo de como usar a fórmula da densidade para resolver problemas: <br>
+                  Em condições ambientes, a densidade do mercúrio é de aproximadamente 13 g/cm<sup>3</sup>.
+                  A massa desse metal, necessaria para encher completamente um frasco de 7 litros de capacidade, é de?
+                </p>
+
+                <p>Resolução:</p>
+                D = 13 g/cm<sup>3</sup>
+                V = 7 <br>
+                M = D * V <br>
+                M = 13 g/cm<sup>3</sup> * 7 <br>
+                <strong>M = 6500 g</strong><br>
+                <!-- Adicionar JS para resolver o problema -->
+                <!-- colocar tudo em sticky das formulas de densidade
+
+                <p>Resolva você mesmo:</p>
+                <div class="calculo-densidade">
+                  <p class="formula"><strong>Calculo de densidade!</strong></p>
+                  <input type="number" name="" value="" placeholder="Massa(g)" id="massa1">
+                  <input type="number" name="" value="" placeholder="Volume(L)" id ="volume1">
+                  <button type="button" name="button" id ="botaoden1">Calcular</button>
+                  <p class="formula">
+                    <input type="text" name="" value="" disabled id="densidade1">
+                  </p>
+                </div>
+                <div class="calculo-massa">
+                  <p class="formula"><strong>Calculo de Massa</strong></p>
+                  <input type="number" name="" value="" placeholder="Densidade" id="densidade2">
+                  <input type="number" name="" value="" placeholder="Volume" id ="volume2">
+                  <button type="button" name="button" id ="botaoden2">Calcular</button>
+                  <p class="formula">
+                    <input type="text" name="" value="" disabled id="massa2">
+                  </p>
+                </div>
+                <div class="calculo-volume">
+                  <p class="formula"><strong>Calculo de Massa</strong></p>
+                  <input type="number" name="" value="" placeholder="Densidade" id="densidade3">
+                  <input type="number" name="" value="" placeholder="Massa" id ="massa3">
+                  <button type="button" name="button" id ="botaoden3">Calcular</button>
+                  <p class="formula">
+                    <input type="text" name="" value="" disabled id="volume3">
+                  </p>
+                </div>
+              -->
+
+
+                <!-- js igual ao site equaçoes -->
+                <!-- Fonte: http://manualdaquimica.uol.com.br/quimica-geral/densidade.htm  -->
+
+              </div>
+            </p>
+        </p>
+      </div>
+    </div>
+    <div class="lateral">
+      <h1><a href="#topo">Química</a></h1>
+      <h2><a href="#fotons">Fótons</a></h2>
+      <h2><a href="#densidade">Densidade</a></h2>
+    </div>
+    <footer><button type="button" name="button" id="dark">Dark Mode</button></footer>
+    <script src="codigo.js" charset="utf-8"></script>
+  </body>
+</html>
