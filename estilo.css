@@ -24,6 +24,32 @@ footer{
 }
 .htmlativa{
   background: white;
+h1 {
+  font-size: 1.80em;
+  text-align: left;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: left;
+}
+header{
+  width: 200%;
+  height: 100px;
+  background-color: rgb(33, 209, 176);
+  position: absolute; top: 0; left: 0;
+  z-index: 3;
+}
+footer{
+  position: fixed; bottom: 0px; left: 0px;
+}
+.html{
+  background: white;
+  background: linear-gradient(to top, #cce4ee 0%, white 8%) 0 62px;
+  background-size: 100% 35px;
+  line-height: 30px;
+}
+.htmlativa{
+  background: white;
   background: linear-gradient(to top, #6861f5 0%, #23262E 8%) 0 62px;
   background-size: 100% 30px;
   line-height: 30px;
@@ -48,14 +74,17 @@ footer{
   padding-right: 10px;
 }
 .lateral{
-  background-image: linear-gradient(to right, rgba(66, 54, 205, 0.8), rgba(73, 93, 232, 0.8));
+  background-image: linear-gradient(to right, rgba(66, 54, 205, 1), rgba(73, 93, 232, 1));
   color: black;
   width: 150px;
-  height: 200%;
-  position: fixed; top: 100px; left: -15px;
+  height: 97vh;
+  position: sticky;
+  top: 0px;
+  left: -15px;
   background-repeat: no-repeat;
   border: 3px solid rgb(5, 0, 255);
   border-radius: 20px;
+  float: left;
 }
 .lateral h1, .lateral h2{
   border: 3px outset rgb(54, 102, 226);
@@ -70,7 +99,7 @@ footer{
   border-collapse: collapse;
 }
 .materia{
-  margin-left: 200px;
+  margin-left: 162px;
 }
 .calculo-densidade{
   float: left;
@@ -80,4 +109,29 @@ footer{
 }
 p:not(.formulas){
   text-indent: 30px;
+}
+html,body{
+  height: 100%;
+}
+#conteudo{
+  position: relative;
+}
+.form{
+  position: sticky;
+  float: right;
+  top: 0;
+}
+#copoda{
+  margin-top: 20px;
+  margin-right: 120px;
+  float: left;
+  border-radius: 100%;
+  shape-outside: circle();
+}
+#copodo{
+  margin-top: 20px;
+  margin-left: 20px;
+  float: right;
+  border-radius:20%;
+  shape-outside: polygon();
 }
